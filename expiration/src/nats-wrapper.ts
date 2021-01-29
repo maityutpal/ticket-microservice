@@ -14,7 +14,7 @@ class NatsWrapper {
 
     return new Promise<void>((resolve, reject) => {
       this.client.on('connect', () => {
-        console.log('expiration singleton nats server is connected');
+        console.log('expiration  singleton nats server is connected');
         resolve();
       });
 
