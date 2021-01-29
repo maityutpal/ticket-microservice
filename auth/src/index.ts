@@ -15,7 +15,7 @@ const start = async () => {
       useUnifiedTopology: true,
       useCreateIndex: true
     });
-    console.log('auth service connected to mongo db');
+    console.log('auth service connected to mongo db !');
   } catch (error) {
     console.error(error);
   }
